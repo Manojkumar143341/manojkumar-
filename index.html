@@ -1,2 +1,240 @@
-hi , i am manoj.
-i am a good boy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <title>Manojkumar - Portfolio</title>
+
+    <style>
+        /* Reset some basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and overall styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        /* Section styles */
+        section {
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* About Section */
+        #about {
+            background: #fff;
+            text-align: center;
+        }
+
+        #about h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Skills Section */
+        #skills {
+            background: #fafafa;
+        }
+
+        #skills h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            gap: 15px;
+        }
+
+        #skills ul li {
+            padding: 10px 20px;
+            background: #ddd;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+
+        #skills ul li:hover {
+            background: #ff6347;
+            color: white;
+        }
+
+        /* Projects Section */
+        #projects {
+            background: #fff;
+        }
+
+        #projects h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Contact Section */
+        #contact {
+            background: #fafafa;
+        }
+
+        #contact h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        #contact p {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        #contact a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact a:hover {
+            color: #ff6347;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm <strong>Manojkumar</strong>, a passionate web developer who loves to build beautiful and functional applications.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Express.js</li>
+                <li>MERN Stack</li>
+                <li>Python</li>
+                <li>Git/GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Project 1: Personal Website</h3>
+                <p>A responsive personal website built using HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: E-commerce Site</h3>
+                <p>A fully functional e-commerce platform developed using the MERN stack.</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 3: Blogging Platform</h3>
+                <p>A simple blog platform built with React and Node.js.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you want to collaborate, feel free to contact me!</p>
+            <p>Email: <a href="mailto:manojkumar@example.com">manojkumar@example.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Manojkumar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
